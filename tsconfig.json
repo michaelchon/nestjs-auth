@@ -1,0 +1,27 @@
+{
+    "include": ["src/**/*", "test/**/*"],
+    "compilerOptions": {
+        // Project Options
+        "outDir": "dist",
+        "module": "CommonJS",
+        "isolatedModules": true,
+        "target": "ES2017",
+
+        // Strict Checks
+        "strict": true,
+        "strictNullChecks": false,
+
+        // Module Resolution
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+
+        // Experimental
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+
+        /// Advanced
+        "noEmitOnError": true
+    }
+}
